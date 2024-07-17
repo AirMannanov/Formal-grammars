@@ -1,0 +1,13 @@
+program {
+
+    int i = 1;
+    int max = 10;
+
+    for (i = 1; i < max; i = i + 1) 
+        write(i);
+
+    i = (max = 15);
+
+    write(i);
+
+}

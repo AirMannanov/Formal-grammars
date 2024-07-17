@@ -1,0 +1,11 @@
+program
+{
+    int a;
+Q:
+    a = 1;
+    goto P;
+    write(a);
+P:
+    a = 2;
+    write(a);
+}

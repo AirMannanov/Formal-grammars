@@ -1,0 +1,9 @@
+program
+{
+	int a = 0, max = 10;
+	while ( a < max) {
+		write("+");
+		a = a + 1;
+	}
+	write(a);
+}

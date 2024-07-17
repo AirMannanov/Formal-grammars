@@ -1,0 +1,2 @@
+g++ analizator.cpp -o run
+./run tests/test15.txt

@@ -1,0 +1,11 @@
+program
+{
+	string c = "abcd";
+	int a = 10;
+	float b = 1.4;
+	a = -6;
+	write(a);
+	write(c);
+	b = 2.8 * 2.0;
+	write(b);
+}

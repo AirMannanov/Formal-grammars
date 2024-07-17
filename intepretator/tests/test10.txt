@@ -1,0 +1,28 @@
+program
+{
+    struct A {
+        int i;
+        string s;
+    };
+
+    A Aelem1, Aelem2;
+
+    Aelem1.i = 1;
+    Aelem1.s = "abc";
+    
+    Aelem2.i = 2;
+    Aelem2.s = "bcd";
+
+    if (Aelem1.i < Aelem2.i)
+        write(Aelem1.s);
+    else
+        write(Aelem2.s);
+
+    Aelem1 = Aelem2;
+
+    if (Aelem1.i < Aelem2.i)
+        write(Aelem1.s);
+    else
+        write(Aelem2.s);
+
+}

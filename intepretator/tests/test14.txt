@@ -1,0 +1,11 @@
+program
+{
+    bool a = true;
+    int j = 3;
+    
+    while (j < 5){
+        write("a");
+        break;
+    }
+
+}

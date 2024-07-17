@@ -1,0 +1,11 @@
+program
+{
+	int a = 10, b = 5;
+	float c = 10.2, d = 5.18;
+	a = a + b / 3 - 2 * 2;
+	c = c + d / 3.2 - 2.3 * 2.1;
+	write(a);
+	write(b);
+	write(c);
+	write(d);
+}
